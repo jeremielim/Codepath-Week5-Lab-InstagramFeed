@@ -15,6 +15,7 @@
 		CF160DCA1C914B3200B97B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF160DC81C914B3200B97B2A /* LaunchScreen.storyboard */; };
 		CF160DD51C914B3200B97B2A /* InstagramFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF160DD41C914B3200B97B2A /* InstagramFeedTests.swift */; };
 		CF160DE01C914B3200B97B2A /* InstagramFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF160DDF1C914B3200B97B2A /* InstagramFeedUITests.swift */; };
+		D08973B91C91CD8100103B2E /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08973B81C91CD8100103B2E /* PhotosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CF160DDB1C914B3200B97B2A /* InstagramFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF160DDF1C914B3200B97B2A /* InstagramFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeedUITests.swift; sourceTree = "<group>"; };
 		CF160DE11C914B3200B97B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08973B81C91CD8100103B2E /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
 		ED874FE1BFCBE8BC3AFCD194 /* Pods_InstagramFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				CF160DBF1C914B3200B97B2A /* AppDelegate.swift */,
 				CF160DC11C914B3200B97B2A /* PhotosViewController.swift */,
 				CF160DC31C914B3200B97B2A /* Main.storyboard */,
+				D08973B81C91CD8100103B2E /* PhotosTableViewCell.swift */,
 				CF160DC61C914B3200B97B2A /* Assets.xcassets */,
 				CF160DC81C914B3200B97B2A /* LaunchScreen.storyboard */,
 				CF160DCB1C914B3200B97B2A /* Info.plist */,
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08973B91C91CD8100103B2E /* PhotosTableViewCell.swift in Sources */,
 				CF160DC21C914B3200B97B2A /* PhotosViewController.swift in Sources */,
 				CF160DC01C914B3200B97B2A /* AppDelegate.swift in Sources */,
 			);
